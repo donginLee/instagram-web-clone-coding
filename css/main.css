@@ -309,3 +309,65 @@ header{
 .post-paragraph-username{
     font-weight: 100;
 }
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+footer div {
+    box-sizing: border-box;
+    width: 75px;
+    height: 100%;
+    color: rgb(38, 38, 38);
+}
+
+
+.home {
+    background-size:40%;
+    background-image: url(../image/icon/home.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.search {
+    background-image: url(../image/icon/search.svg);
+    background-size:40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 25%;
+}
+
+.add-story {
+    background-image: url(../image/icon/add-story.svg);
+    background-size:40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.like {
+    background-size:40%;
+    background-image: url(../image/icon/like.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.my-profile {
+    background-size:40%;
+    background-image: url(../image/icon/my-profile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
