@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* authorization2.html */
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    height: 44px;
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.header2 > img {
+    padding-left: 16.41px;
+    padding-top: 12px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.section > img {
+    width: 182px;
+    height: 49px;
+    padding-bottom: 39px;
+}
+
+.section-first-div {
+    width: 343px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-first-div > input {
+    width: 343px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: rgb(250, 250, 250);
+    color: rgb(38, 38, 38);
+    font-family: Pretendard-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.15px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 12px;
+}
+
+.section-first-div > a {
+    width: 100px;
+    height: 14px;
+    text-align: right;
+    color: rgb(55, 151, 239);
+    font-family: Pretendard-Regular;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.15px;
+    margin-left: auto;
+    padding-top: 7px;
+}
+
+.section-first-div > button {
+    width: 343px;
+    height: 44px;
+    border-radius: 5px;
+    background: rgb(55, 151, 239);
+    border: 0px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Pretendard-Regular;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: -1px;
+    letter-spacing: -0.15px;
+    text-align: center;
+}
+
+.section-first-div > div {
+    padding-top: 37px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.section-first-div > div > img {
+    width: 17px;
+    height: 17px;
+}
+
+.section-first-div > div > a {
+    width: 150px;
+    height: 16px;
+    color: rgb(55, 151, 239);
+    font-family: Pretendard-Regular;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: -1px;
+    letter-spacing: -0.15px;
+    text-align: left;
+}
+
+.section-second-div {
+    padding-top: 42px;
+    width: 343px;
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 31.5;
+}
+
+.section-second-div > hr {
+    width: 132px;
+    border: 0.33px solid rgba(0, 0, 0, 0.2);
+}
+
+.section-second-div > p {
+    width: 16px;
+    height: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Pretendard-Regular;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: -1px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.section-third-div {
+    margin-top: 41.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-third-div > p {
+    width: 200px;
+    height: 16px;
+    font-family: Pretendard-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.15px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 102px;
+    height: 79px;
+    box-shadow: 0px -0.33px 0px 0px rgba(60, 60, 67, 0.29);
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer > p {
+    padding-top: 32.5px;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Pretendard-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.01px;
+    text-align: center;
+}
