@@ -355,7 +355,7 @@ footer div {
     object-fit: cover;
 }
 
-.main-like {
+.like {
     background-size:40%;
     background-image: url(../image/icon/main-like.svg);
     background-position: center;
