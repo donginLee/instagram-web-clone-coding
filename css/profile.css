@@ -9,6 +9,7 @@
 /* body */
 body {
     font-family: 'Pretendard-Regular';
+    background: rgb(250, 250, 250);
 }
 
 /* header */
@@ -54,6 +55,9 @@ header {
 
 
 /* info */
+.info {
+    box-shadow: 0px 0.33px 0px 0px rgba(60, 60, 67, 0.29);
+}
 
 /* info-top */
 .info-top {
@@ -141,6 +145,7 @@ header {
     color: rgb(5, 56, 107);
 }
 
+/* edit button */
 .edit-button {
     display: flex;
     align-items: center;
@@ -157,6 +162,72 @@ header {
     text-align: center;
 }
 
+/* story */
+.story_container {
+    display: flex;
+    overflow-x: auto;
+    gap: 18px;
+    padding: 0 15px 14px 15px;
+}
+
+.story_item {
+    width: 64px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.story_img img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 204);
+}
+
+.new-story_img img {
+    width: 56px;
+    height: 56px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 204);
+}
+
+.story_title {
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01px;
+    text-align: center;
+}
+
+/* main */
+/* main-nav */
+.main-nav {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav-right
+.main-nav-left {
+    width: auto;
+    border-bottom: 1px solid black;
+}
+
+
+
+
 /* footer */
 footer {
     display: flex;
@@ -167,6 +238,7 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
 
 footer div {
