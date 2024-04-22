@@ -16,15 +16,8 @@ header {
     margin: 0 auto;
 }
 
-.lock {
-    width: 11px;
-    height: 16px;
+.header-right i {
     color: rgb(38, 38, 38);
-    background-image: url(../image/icon/lock.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-
 }
 
 .username {
@@ -36,16 +29,14 @@ header {
     height: 16px;
     color: rgb(38, 38, 38);
     background-image: url(../image/icon/down-arrow.svg);
-    background-position: center;
+    background-position: 50% 70%;
     background-repeat: no-repeat;
     object-fit: cover;
 
 }
 
 .header-left {
-    width: 20.5px;
-    height: 20px;
-    background-image: url(../image/icon/hamburger.svg);
+    font-size: 16px;
 }
 
 
@@ -86,7 +77,7 @@ header {
 }
 
 .statistics-top {
-    color: rgb(38, 38, 38);
+    color: gray;
     font-family: Pretendard;
     font-size: 16px;
     font-weight: 100;
