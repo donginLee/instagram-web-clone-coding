@@ -232,12 +232,30 @@ header {
     justify-content: center;
     width: 186px;
 }
+
 .main-nav> :first-child {
     border-bottom: 1px solid black;
 }
 
+/* main-container */
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    height: calc(100vh - 457.4px);
+    overflow-y: auto;
+}
 
+.main-item {
+    width: 124px;
+    height: 124px;
+}
 
+.main-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* footer */
 footer {
