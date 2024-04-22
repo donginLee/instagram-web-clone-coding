@@ -1,3 +1,17 @@
+/* font family */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* body */
+body {
+    font-family: 'Pretendard-Regular';
+    background: rgb(250, 250, 250);
+}
+
 /* header */
 header {
     width: 100%;
@@ -16,15 +30,8 @@ header {
     margin: 0 auto;
 }
 
-.lock {
-    width: 11px;
-    height: 16px;
+.header-right i {
     color: rgb(38, 38, 38);
-    background-image: url(../image/icon/lock.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-
 }
 
 .username {
@@ -36,20 +43,21 @@ header {
     height: 16px;
     color: rgb(38, 38, 38);
     background-image: url(../image/icon/down-arrow.svg);
-    background-position: center;
+    background-position: 50% 70%;
     background-repeat: no-repeat;
     object-fit: cover;
 
 }
 
 .header-left {
-    width: 20.5px;
-    height: 20px;
-    background-image: url(../image/icon/hamburger.svg);
+    font-size: 16px;
 }
 
 
 /* info */
+.info {
+    box-shadow: 0px 0.33px 0px 0px rgba(60, 60, 67, 0.29);
+}
 
 /* info-top */
 .info-top {
@@ -86,7 +94,7 @@ header {
 }
 
 .statistics-top {
-    color: rgb(38, 38, 38);
+    color: gray;
     font-family: Pretendard;
     font-size: 16px;
     font-weight: 100;
@@ -106,6 +114,148 @@ header {
 }
 
 
+/* info-name-bio */
+.info-name-bio {
+    width: 343px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.info-name {
+    color: rgb(38, 38, 38);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: -1px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.info-bio {
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.info-bio span {
+    color: rgb(5, 56, 107);
+}
+
+/* edit button */
+.edit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 16px;
+    height: 29px;
+    box-sizing: border-box;
+    border: 1px solid rgba(60, 60, 67, 0.18);
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    color: gray;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/* story */
+.story_container {
+    display: flex;
+    overflow-x: auto;
+    gap: 18px;
+    padding: 0 15px 14px 15px;
+}
+
+.story_item {
+    width: 64px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.story_img img {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 204);
+}
+
+.new-story_img img {
+    width: 56px;
+    height: 56px;
+    object-fit: scale-down;
+    border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgb(199, 199, 204);
+}
+
+.story_title {
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01px;
+    text-align: center;
+}
+
+/* main */
+/* main-nav */
+.main-nav {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav img {
+    width: 24px;
+    height: 26px;
+    margin: auto auto;
+}
+
+.main-nav-left,
+.main-nav-right{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 186px;
+}
+
+.main-nav> :first-child {
+    border-bottom: 1px solid black;
+}
+
+/* main-container */
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    height: calc(100vh - 457.4px);
+    overflow-y: auto;
+}
+
+.main-item {
+    width: 124px;
+    height: 124px;
+}
+
+.main-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* footer */
 footer {
@@ -117,6 +267,7 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
 
 footer div {
