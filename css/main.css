@@ -1,20 +1,16 @@
-
-@font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 body{
-    font-family: 'Pretendard-Regular';
+    font-family: "Pretendard";
 }
 header{
+    top:0px;
+    z-index:2;
     width:100%;
     height:44px;
+    position:fixed;
     box-sizing: border-box;
     box-shadow: 0px 0.33px 0px 0px rgba(60, 60, 67, 0.29);
-    background: rgb(250, 209, 209);
+    background: rgba(249,249,249);
     padding: 6px 10px 6px 10px;
     display:flex;
     flex-direction: column;
@@ -47,12 +43,14 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
-    border: 0.1px solid green;
+    /* border: 0.1px solid green; */
     text-align: center;
+    fill:rgba(38,38,38);
 }
 .logo img{
     display:block;
     margin: auto;
+    fill:rgba(38,38,38);
 }
 .right-nav .logo {
     margin-left:10px;
@@ -99,8 +97,13 @@ header{
     height:19.75px;
 }
 .stories{
+    margin-top:44px;
     display:flex;
     flex-direction: row;
+    padding-top:9px;
+    padding-bottom:8px;
+    overflow-x: auto;
+    /* border:0.1px solid black; */
 
 }
 .story {
@@ -122,8 +125,7 @@ header{
     background-image: linear-gradient(#fff, #fff), 
     linear-gradient(to right, red 0%,  orange 100%);
     background-origin: border-box;
-    background-clip: content-box, border-box;
-    linear-gradient(to right, red 0%,  orange 100%);
+    background-clip: content-box, border-box; linear-gradient(to right, red 0%,  orange 100%);
 }
 .story-image-essence {
     margin:0 auto;
@@ -145,4 +147,166 @@ header{
     width:100%;
     box-sizing:border-box;
     /* border:1px solid black; */
+}
+.posts{
+    width:100%;
+    overflow-y:auto;
+}
+.post{
+    width:100%;
+    height:auto;
+}
+.post-user-info {
+    box-sizing: border-box;
+    width:100%;
+    height:54px;
+    /* background-color:lightpink; */
+    padding: 11px 10px;
+
+}
+.post-images{
+    position:relative;
+    width:100%;
+    aspect-ratio:1/1;
+    background-color:yellow;
+}
+.image-count{
+    width:34px;
+    height:26px;
+    top:14px;
+    right:14px;
+    font-size:12px;
+    position:absolute;
+    background-color:rgba(18,18,18,0.7);
+    border-radius:13px;
+    text-align:center;
+    display:flex;
+}
+.image-count p {
+    color:rgba(249,249,249);
+    margin:auto;
+}
+.post-user-info-profile-image{
+    width:32px;
+    height:32px;
+    border-radius:50%;
+    background-color:black;
+    background-size:cover;
+    background-image: url("../image/photo/user1.png");
+
+}
+.post-user-info {
+    display:flex;
+    flex-direction: row;
+}
+.post-user-info-profile-text{
+    margin-left:10px;
+}
+.post-user-info-username{
+    color: rgb(38, 38, 38);
+    font-family:'Pretendard';
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    text-align: left;
+}
+.post-user-info-location{
+    font-family:'Pretendard';
+    font-size:11px;
+    font-weight:400;
+    line-height:13px;
+    letter-spacing:0.07px;
+    text-align:left;
+}
+#bluemark{
+    width:10px;
+    height:10px;
+    margin-left:12px;
+
+}
+.post-bottons{
+    background-color:rgba(249,249,249);
+    height:
+}
+.post-user-info-user-with-bluemark{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+#more{
+    margin: auto auto;
+    margin-right:5px;
+    width:14px;
+    height:3px;
+}
+#post1 .post-images{
+    background-size:cover;
+    background-position:center;
+    background-image:url("../image/photo/post1.png");
+}
+.post-buttons{
+    position:relative;
+    width:100%;
+    padding:14px;
+    fill: rgb(38, 38, 38);
+    display:flex;
+    /* border:2px solid gray; */
+    box-sizing:border-box;
+    justify-content: space-between;
+}
+.post-buttons-left{
+    /* border:2px solid blue; */
+    display:flex;
+    flex-direction: row;
+    width:auto;
+    
+}
+.post-buttons-left .logo{
+    margin-right:17px;
+
+}
+#save{
+    width:auto;
+    margin-right:0px;
+}
+#dots{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:26px;
+    height:6px;
+    width:auto;
+    /* border:2px solid green; */
+    transform:translate(-50%,-50%);
+}
+.post-like-info{
+    margin: 2px solid red;
+    padding-left:14px;
+    font-size:13px;
+    display:flex;
+    flex-direction:row;
+}
+#post-like-info-image{
+    width:17px;
+    height:17px;
+    border-radius:50%;
+    background-size:cover;
+    background-position:center;
+    
+    background-image: url("../image/photo/user1.png");
+}
+.post-like-info p{
+    margin-left:6px;
+    font-weight:100;
+}
+.post-like-info .bold{
+    font-weight:400;
+}
+.post-paragraph{
+    padding:6px 15px;
+    font-size:13px;
+}
+.post-paragraph-username{
+    font-weight: 100;
 }
