@@ -1,143 +1,164 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
-body{
+
+body {
     font-family: "Pretendard";
 }
-header{
-    top:0px;
-    z-index:2;
-    width:100%;
-    height:44px;
-    position:fixed;
+
+header {
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 44px;
+    position: fixed;
     box-sizing: border-box;
     box-shadow: 0px 0.33px 0px 0px rgba(60, 60, 67, 0.29);
-    background: rgba(249,249,249);
+    background: rgba(249, 249, 249);
     padding: 6px 10px 6px 10px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+
 .top-navigation {
     box-sizing: border-box;
-    width:100%;
-    height:28px;
+    width: 100%;
+    height: 28px;
     flex-direction: row;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     /* border: 2px solid red; */
 }
-.right-nav{
-    box-sizing:border-box;
+
+.right-nav {
+    box-sizing: border-box;
     /* border: 2px solid yellow; */
-    display:flex;
-    height : 100%;
-    align-items : center;
+    display: flex;
+    height: 100%;
+    align-items: center;
     flex-direction: cloumn;
-    margin-right:0px;
-    height:100%;
-    
+    margin-right: 0px;
+    height: 100%;
+
 }
-.logo{
-    box-sizing:border-box;
-    width:50%;
-    display:flex;
+
+.logo {
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
     /* border: 0.1px solid green; */
     text-align: center;
-    fill:rgba(38,38,38);
+    fill: rgba(38, 38, 38);
 }
-.logo img{
-    display:block;
-    margin: auto;
-    fill:rgba(38,38,38);
-}
-.right-nav .logo {
-    margin-left:10px;
-    margin-right:10px;
-}
-.right-nav .logo:first-child{
-    margin-left:0px;
-}
-.right-nav .logo:last-child{
-    margin-right:0px;
-}
-#instagram {
-    position:absolute;
-    left:50%;
 
-    transform:translate(-50%,0);
+.logo img {
+    display: block;
+    margin: auto;
+    fill: rgba(38, 38, 38);
+}
+
+.right-nav .logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-nav .logo:first-child {
+    margin-left: 0px;
+}
+
+.right-nav .logo:last-child {
+    margin-right: 0px;
+}
+
+#instagram {
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%, 0);
     box-sizing: border-box;
 }
+
 .body {
-    width:375px;
+    width: 375px;
 }
+
 #camera {
-    width:24px;
-    height:22px;
+    width: 24px;
+    height: 22px;
 }
+
 #camera img {
-    width:23.5px;
-    height:22px;
+    width: 23.5px;
+    height: 22px;
 }
+
 #igtv {
     width: 24px;
-    height:25px;
+    height: 25px;
 }
+
 #igtv img {
-    width:22px;
-    height:25px;
+    width: 22px;
+    height: 25px;
 }
+
 #messanger {
     width: 23px;
-    height:20px;
+    height: 20px;
 }
+
 #messange img {
-    width:22.73px;
-    height:19.75px;
+    width: 22.73px;
+    height: 19.75px;
 }
-.stories{
-    margin-top:44px;
-    display:flex;
+
+.stories {
+    margin-top: 44px;
+    display: flex;
     flex-direction: row;
-    padding-top:9px;
-    padding-bottom:8px;
+    padding-top: 9px;
+    padding-bottom: 8px;
     overflow-x: auto;
     /* border:0.1px solid black; */
 
 }
+
 .story {
-    position:relative;
-    margin-left:10px;
-    margin-right:10px;
-    width:auto;
-    height:81px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: 81px;
     /* border: 1px solid skyblue; */
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-.story-image{
+
+.story-image {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius:50%;
-    display:block;
-    box-sizing:border-box;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
     border: 3px solid transparent;
     background-image: linear-gradient(#fff, #fff), linear-gradient(to right, red 0%, orange 100%);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    
+
 }
+
 .story-image-essence {
-    margin:0 auto;
-    width:56px;
-    height:56px;
-    border-radius:50%;
-    box-sizing:border-box;
-    border:3px solid white;
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-position:center;
-    background-image:url('../image/photo/user1.png')
+    margin: 0 auto;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 3px solid white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../image/photo/user1.png')
 }
 #story-1 .story-image-essence{
     margin:0 auto;
@@ -151,176 +172,205 @@ header{
     background-position:center;
     background-image:url('../image/icon/my-profile.svg');
 }
-.story-text{
-    position:absolute;
+
+.story-text {
+    position: absolute;
     text-align: center;
-    font-size:12px;
-    bottom:0px;
-    width:100%;
-    box-sizing:border-box;
+    font-size: 12px;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
     /* border:1px solid black; */
 }
-.posts{
-    width:100%;
-    overflow-y:auto;
+
+.posts {
+    width: 100%;
+    overflow-y: auto;
 }
-.post{
-    width:100%;
-    height:auto;
+
+.post {
+    width: 100%;
+    height: auto;
 }
+
 .post-user-info {
     box-sizing: border-box;
-    width:100%;
-    height:54px;
+    width: 100%;
+    height: 54px;
     /* background-color:lightpink; */
     padding: 11px 10px;
 
 }
-.post-images{
-    position:relative;
-    width:100%;
-    aspect-ratio:1/1;
-    background-color:yellow;
+
+.post-images {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: yellow;
 }
-.image-count{
-    width:34px;
-    height:26px;
-    top:14px;
-    right:14px;
-    font-size:12px;
-    position:absolute;
-    background-color:rgba(18,18,18,0.7);
-    border-radius:13px;
-    text-align:center;
-    display:flex;
+
+.image-count {
+    width: 34px;
+    height: 26px;
+    top: 14px;
+    right: 14px;
+    font-size: 12px;
+    position: absolute;
+    background-color: rgba(18, 18, 18, 0.7);
+    border-radius: 13px;
+    text-align: center;
+    display: flex;
 }
+
 .image-count p {
-    color:rgba(249,249,249);
-    margin:auto;
+    color: rgba(249, 249, 249);
+    margin: auto;
 }
-.post-user-info-profile-image{
-    width:32px;
-    height:32px;
-    border-radius:50%;
-    background-color:black;
-    background-size:cover;
+
+.post-user-info-profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    background-size: cover;
     background-image: url("../image/photo/user1.png");
 
 }
+
 .post-user-info {
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
-.post-user-info-profile-text{
-    margin-left:10px;
+
+.post-user-info-profile-text {
+    margin-left: 10px;
 }
-.post-user-info-username{
+
+.post-user-info-username {
     color: rgb(38, 38, 38);
-    font-family:'Pretendard';
+    font-family: 'Pretendard';
     font-size: 13px;
     font-weight: 100;
     line-height: 18px;
     letter-spacing: -0.1px;
     text-align: left;
 }
-.post-user-info-location{
-    font-family:'Pretendard';
-    font-size:11px;
-    font-weight:400;
-    line-height:13px;
-    letter-spacing:0.07px;
-    text-align:left;
+
+.post-user-info-location {
+    font-family: 'Pretendard';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0.07px;
+    text-align: left;
 }
-#bluemark{
-    width:10px;
-    height:10px;
-    margin-left:12px;
+
+#bluemark {
+    width: 10px;
+    height: 10px;
+    margin-left: 12px;
 
 }
-.post-bottons{
-    background-color:rgba(249,249,249);
+
+.post-bottons {
+    background-color: rgba(249, 249, 249);
 }
-.post-user-info-user-with-bluemark{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
+
+.post-user-info-user-with-bluemark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-#more{
+
+#more {
     margin: auto auto;
-    margin-right:5px;
-    width:14px;
-    height:3px;
+    margin-right: 5px;
+    width: 14px;
+    height: 3px;
 }
-#post1 .post-images{
-    background-size:cover;
-    background-position:center;
-    background-image:url("../image/photo/post1.png");
+
+#post1 .post-images {
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/photo/post1.png");
 }
-.post-buttons{
-    position:relative;
-    width:100%;
-    padding:14px;
+
+.post-buttons {
+    position: relative;
+    width: 100%;
+    padding: 14px;
     fill: rgb(38, 38, 38);
-    display:flex;
+    display: flex;
     /* border:2px solid gray; */
-    box-sizing:border-box;
+    box-sizing: border-box;
     justify-content: space-between;
 }
-.post-buttons-left{
+
+.post-buttons-left {
     /* border:2px solid blue; */
-    display:flex;
+    display: flex;
     flex-direction: row;
-    width:auto;
-    
-}
-.post-buttons-left .logo{
-    margin-right:17px;
+    width: auto;
 
 }
-#save{
-    width:auto;
-    margin-right:0px;
+
+.post-buttons-left .logo {
+    margin-right: 17px;
+
 }
-#dots{
-    position:absolute;
-    left:50%;
-    top:50%;
-    width:26px;
-    height:6px;
-    width:auto;
+
+#save {
+    width: auto;
+    margin-right: 0px;
+}
+
+#dots {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 26px;
+    height: 6px;
+    width: auto;
     /* border:2px solid green; */
-    transform:translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.post-like-info{
+
+.post-like-info {
     margin: 2px solid red;
-    padding-left:14px;
-    font-size:13px;
-    display:flex;
-    flex-direction:row;
+    padding-left: 14px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
 }
-#post-like-info-image{
-    width:17px;
-    height:17px;
-    border-radius:50%;
-    background-size:cover;
-    background-position:center;
-    
+
+#post-like-info-image {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+
     background-image: url("../image/photo/user1.png");
 }
-.post-like-info p{
-    margin-left:6px;
-    font-weight:100;
-}
-.post-like-info .bold{
-    font-weight:400;
-}
-.post-paragraph{
-    padding:6px 15px;
-    font-size:13px;
-}
-.post-paragraph-username{
+
+.post-like-info p {
+    margin-left: 6px;
     font-weight: 100;
 }
+
+.post-like-info .bold {
+    font-weight: 400;
+}
+
+.post-paragraph {
+    padding: 6px 15px;
+    font-size: 13px;
+}
+
+.post-paragraph-username {
+    font-weight: 100;
+}
+
 /* footer */
 footer {
     display: flex;
@@ -343,7 +393,7 @@ footer div {
 
 
 .home {
-    background-size:40%;
+    background-size: 40%;
     background-image: url(../image/icon/home.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -352,7 +402,7 @@ footer div {
 
 .search {
     background-image: url(../image/icon/search.svg);
-    background-size:40%;
+    background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -361,14 +411,14 @@ footer div {
 
 .add-story {
     background-image: url(../image/icon/add-story.svg);
-    background-size:40%;
+    background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 
 .like {
-    background-size:40%;
+    background-size: 40%;
     background-image: url(../image/icon/main-like.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -376,10 +426,9 @@ footer div {
 }
 
 .my-profile {
-    background-size:40%;
+    background-size: 40%;
     background-image: url(../image/icon/my-profile.svg);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
 }
-
