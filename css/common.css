@@ -1,5 +1,10 @@
 body {
+    background-color:lightgray;
+    display:flex;
+}
+main {
     max-width: 390px;
     margin: 0 auto;
+    background-color:rgba(249,249,249);
     border: solid 1px #999999;
 }
