@@ -1,8 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 main {
-    width: 375px;
-    margin: 0 auto;
     font-family: "Pretendard";
 }
 
@@ -12,14 +10,18 @@ a {
 
 header {
     box-sizing: border-box;
-    width: 100%;
-    height: 44px;
-    padding: 12px;
     position: fixed;
     top: 0;
+    width: 375px;
+    height: 44px;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header a {
+    display: block;
 }
 
 .cancel {
@@ -62,14 +64,12 @@ header {
     justify-content: flex-end;
     align-items: end;
     box-sizing: border-box;
-    width: 100%;
-    position: absolute;
-    top: 44px;
+    width: 375px;
+    margin-top: 44px;
     background-image: url("../image/photo/story1.svg");
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
-    width: 100%;
     aspect-ratio: 1/1;
     padding: 10px;
 }
@@ -83,11 +83,12 @@ header {
     display: grid;
     position: absolute;
     box-sizing: border-box;
-    width: 100%;
+    width: 375px;
     top: 419px;
     grid-template-columns: repeat(4, 1fr);
-    height: 342px;
+    height: calc(100vh - 463px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .photo-item {
@@ -103,6 +104,7 @@ header {
 /* footer */
 footer {
     font-family: "Pretendard";
+    position: fixed;
     color: rgb(38, 38, 38);
     font-size: 16px;
     font-weight: 100;
@@ -110,11 +112,11 @@ footer {
     letter-spacing: -0.33px;
     text-align: center;
     display: flex;
-    position: fixed;
     justify-content: center;
     align-self: center;
-    bottom: 0px;
+    bottom: 0;
     height: 44px;
+    width: 375px;
 }
 
 .footer-item {
