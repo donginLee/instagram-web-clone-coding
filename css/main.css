@@ -139,6 +139,18 @@ header{
     background-position:center;
     background-image:url('../image/photo/user1.png')
 }
+#story-1 .story-image-essence{
+    margin:0 auto;
+    width:56px;
+    height:56px;
+    border-radius:50%;
+    box-sizing:border-box;
+    border:1.5px solid white;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image:url('../image/icon/my-profile.svg');
+}
 .story-text{
     position:absolute;
     text-align: center;
