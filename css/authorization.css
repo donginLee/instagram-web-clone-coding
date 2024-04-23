@@ -57,7 +57,7 @@ body {
     text-align: center;
 }
 
-.section1 > a > button {
+.section1 > button {
     margin-top: 13px;
     width: 307px;
     height: 44px;
