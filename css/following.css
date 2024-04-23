@@ -1,0 +1,127 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+body{
+    font-family: "Pretendard";
+}
+
+main {
+    overflow: hidden;
+}
+
+header {
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header > a {
+    width: 175px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 21px;
+    letter-spacing: -0.33px;
+}
+
+.header-a {
+    border-bottom: 1.4px solid rgb(128, 133, 133)
+}
+
+section {
+    display: flex;
+    height:712px;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.section-div-1 {
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    height: 112px;
+}
+
+
+.section-div-1 > img {
+    width: 44px;
+    height: 44px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-right: 12px;
+}
+
+.section-div-1 > div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-div-1 > div > p {
+    margin-top: 9px;
+    padding-bottom: 9px;
+    width: 230px;
+    height: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: -0.07px;
+}
+
+.section-div-2 {
+    display: flex;
+    flex-direction: row;
+    width: 375px;
+    height: 60px;
+}
+
+.section-div-2 > img {
+    width: 44px;
+    height: 44px;
+    padding: 8px 16px 8px 12px;
+}
+
+.section-div-2 > p {
+    width: 230px;
+    height: 31px;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.07px;
+    text-align: left;
+}
+
+.section-div-3 {
+    width: 375px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-div-3 > img {
+    width: 44px;
+    height: 44px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-right: 12px;
+}
+
+.section-div-3 > p {
+    padding-top: 15px;
+    padding-bottom: 14px;
+    width: 184px;
+    height: 31px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.07px;
+    text-align: left;
+}
+
+#section-div {
+    height: auto;
+}
