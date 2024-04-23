@@ -60,9 +60,10 @@ body {
     width: 132px;
 }
 
-.profile-img {
+.profile-img img {
     width: 32px;
     height: 32px;
+    border-radius: 16px;
 }
 
 .profile-username {
