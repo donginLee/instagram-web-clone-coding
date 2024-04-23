@@ -15,7 +15,8 @@ main {
 }
 
 /* footer */
-footer{
+.footer{
+    width: 375px;
     position: fixed;
     bottom: 0;
     background-color: white;
