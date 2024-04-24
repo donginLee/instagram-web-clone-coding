@@ -222,7 +222,7 @@ header {
 }
 
 .main-nav-left,
-.main-nav-right{
+.main-nav-right {
     display: flex;
     height: 100%;
     justify-content: center;
@@ -234,11 +234,11 @@ header {
 }
 
 /* main-container */
-.main-container{
+.main-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
-    height:230.5px;
+    height: calc(100vh - 420px);
     overflow-y: auto;
 }
 
