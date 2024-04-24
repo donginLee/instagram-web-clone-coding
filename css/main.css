@@ -373,7 +373,7 @@ header {
     font-weight: 100;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     main{
         height:100vh;
     }
