@@ -148,3 +148,9 @@ main {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 420px) {
+    main{
+        height:100vh;
+    }
+}

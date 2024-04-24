@@ -252,3 +252,14 @@ header {
     height: 100%;
     object-fit: cover;
 }
+@media (max-width: 420px) {
+    main{
+        height:100vh;
+    }
+    .contents{
+        height:calc(100vh - 94px);
+    }
+    .main-container{
+        height:calc(100vh - 465.5px);
+    }
+}
