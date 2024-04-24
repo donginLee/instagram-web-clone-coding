@@ -7,9 +7,10 @@
 
 /* body */
 body {
-    background-color:black;
+    background-color:white;
 }
 .layout > .status-bar {
+    z-index:4;
    background-color:white;
    filter:invert(1);
 }
