@@ -6,16 +6,29 @@
 }
 
 /* body */
+body {
+    background-color:black;
+}
+.layout > .status-bar {
+   background-color:white;
+   filter:invert(1);
+}
+.layout > .home-indicator {
+    background-color:white;
+    filter:invert(1);
+ }
 main {
     font-family: 'Pretendard-Regular';
     background-color: black;
+    border-left:1px solid black;
+    border-right:2px solid black;
 }
 
 .story {
     box-sizing: border-box;
     position: relative;
     width: 100%;
-    height: calc(100%+94px);
+    height: calc(100% - 69px);
     margin: 7px 0;
 }
 

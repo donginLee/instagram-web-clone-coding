@@ -1,11 +1,3 @@
-@media (max-width: 375px) {
-	.layout {
-        display: none;
-    }
-    body{
-        background-color: rgb(250,250,250);
-    }
-}
 
 html{
     width:100vw;
@@ -26,7 +18,7 @@ body {
     transform:translate(-50%,-50%);
     background-color:rgba(255,255,255);
 }
-@media (max-width: 375px) {
+@media (max-width: 420px) {
 	.layout {
         display: none;
     }
@@ -48,7 +40,8 @@ body {
 .status-bar {
     background-color:rgba(250,250,250);
     position:absolute;
-    top:-391px;
+    top:-394px;
+    height:50px;
     transform:translate(-50%,-50%);
     width :375px;
     z-index:5;
@@ -58,10 +51,11 @@ body {
     background-color:rgba(250,250,250);
     position:absolute;
     transform:translate(-50%,-50%);
-    width :375px;
-    z-index:5;
+    width :376px;
+    height:50px;
+    z-index:1;
     border-radius:0 0 40px 40px;
-    bottom:-428px;
+    bottom:-440px;
 }
 main {
     z-index:1;
@@ -72,6 +66,7 @@ main {
     left:50%;
     transform:translate(-50%,-50%);
     background-color:rgba(250,250,250);
+
     /* border: solid 1px #999999; */
 }
 .contents {
