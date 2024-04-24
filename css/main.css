@@ -137,9 +137,6 @@ header {
     box-sizing: border-box;
 }
 
-.post:last-child{
-    margin-bottom: 80px;
-}
 .story-image {
     width: 100%;
     aspect-ratio: 1/1;

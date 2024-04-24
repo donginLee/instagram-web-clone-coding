@@ -238,7 +238,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
-    height: calc(100vh - 420px);
+    height: 280px;
     overflow-y: auto;
 }
 
