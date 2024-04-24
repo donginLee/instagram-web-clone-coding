@@ -86,7 +86,7 @@ header a {
     width: 375px;
     top: 419px;
     grid-template-columns: repeat(4, 1fr);
-    height: calc(100vh - 463px);
+    height: calc(100% - 463px);
     overflow-y: auto;
     overflow-x: hidden;
 }

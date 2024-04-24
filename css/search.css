@@ -79,8 +79,9 @@
     gap: 5.5px;
 }
 /* section */
+
 #wrapper {
-    height: calc(100vh - 138px);
+    height: calc(100% - 88px);
     display: grid;
     grid-template-rows: repeat(3, 124px);
     grid-template-columns: repeat(3, 1fr);
