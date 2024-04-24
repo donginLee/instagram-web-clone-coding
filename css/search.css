@@ -180,4 +180,12 @@
     background-image: url('https://picsum.photos/seed/picsum21/400/300');
 }
 
+@media (max-width: 430px) {
+    main{
+        height:100vh;
+    }
+    .contents{
+        height:calc(100vh - 44px);
+    }
 
+}

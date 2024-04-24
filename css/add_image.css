@@ -126,3 +126,23 @@ footer {
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 420px) {
+    main{
+        height:100vh;
+    }
+    .contents{
+        height:calc(100vh - 44px);
+    }
+}
+@media(max-width:430px) and (min-height:900px){
+    
+    main{
+        height:100vh;
+    }
+    .contents{
+        height:calc(100vh - 44px);
+    }
+    .photo-grid{
+        height:381px;
+    }
+}

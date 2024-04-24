@@ -125,3 +125,12 @@ section {
 #section-div {
     height: auto;
 }
+
+@media (max-width: 430px) {
+    main{
+        height:100vh;
+    }
+    .contents{
+        height:calc(100vh - 44px);
+    }
+}
