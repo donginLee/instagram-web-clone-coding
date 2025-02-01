@@ -1,5 +1,5 @@
 # instabram-web-clone-coding
-
+<img src="screen-recording.gif" width="400px" ></img>
 ## 1. Branch Merge Role
 - Main 브랜치는 PR로만 Merge 가능
 - merge에 필요한 PR 최소 리뷰어 수 1명
